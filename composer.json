@@ -1,0 +1,19 @@
+{   
+    "name": "ronald/domino-case",
+    "description": "Create a Domino Game, application case",
+    "type": "project",
+    "authors": [
+        {
+            "name": "RonaldTimmers",
+            "email": "ronald.timmers@outlook.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    },
+    "autoload": {
+        "psr-4": {
+          "DominoGame\\":"src/"
+        }
+    } 
+}
